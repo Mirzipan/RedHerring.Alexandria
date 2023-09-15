@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <Title>Red Herring Alexandria</Title>
+        <Authors>Mirzipan</Authors>
+        <LangVersion>10</LangVersion>
+        <Description>A library of basic utilities.</Description>
+        <RepositoryUrl>https://github.com/Mirzipan/RedHerring.Alexandria</RepositoryUrl>
+        <Copyright>2023</Copyright>
+        <PackageTags>Alexandria, Extensions, Library, Utilitiez, Collections</PackageTags>    
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.MD</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.MD" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="RedHerring.Extensions" Version="1.0.0" />
+      <PackageReference Include="System.Reactive" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>
