@@ -1,5 +1,7 @@
 # Red Herring Alexandria
 
+![Nuget](https://img.shields.io/nuget/v/RedHerring.Alexandria)
+
 A library of basic utilities.
 
 ## BitMask
